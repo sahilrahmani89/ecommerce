@@ -455,4 +455,7 @@ p {
   .navbar-links{
     display: none;
   }
+.benifit ul li {
+  width: 100%;
+}
 }
