@@ -449,6 +449,7 @@ p {
   color:#fff;
   font-size: 24px;
   margin-top:20px;
+ line-height: 1.7;
 }
 /* media query */
 @media (max-width:768px){
