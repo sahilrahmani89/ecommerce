@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import '../App.css'
 import CartList from './CartList'
 import Footer from './Footer'
+import MobileNav from './MobileNav'
 // 
 function Cart() {
     const {cartItem,
@@ -29,6 +30,7 @@ function Cart() {
     }
     return (
         <>
+        <MobileNav/>
              <div className='container my-5 section-padding'>
                 <div className='row justify-content-center'>
                     <div className='col-lg-7 col-12'>
