@@ -442,6 +442,9 @@ p {
   text-align: center;
   padding: 20px;
 }
+.nav-mob-links ul li a{
+  color#fff;
+}
 .nav-mob-links ul li:last-child{
   margin-bottom:0!important;
 }
