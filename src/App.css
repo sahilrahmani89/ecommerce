@@ -442,6 +442,9 @@ p {
   text-align: center;
   padding: 20px;
 }
+.nav-mob-links ul li:last-child{
+  margin-bottom:0;
+}
 .mobilenavdisplay{
   color:#fff;
   font-size: 24px;
@@ -484,5 +487,8 @@ h6 {
 
 p {
     font-size: 0/8rem;
+}
+.banner {
+  margin-top: 0px;
 }
 }
