@@ -9,7 +9,7 @@ function CartList({id,title,image,price,quantity}) {
         } = useGlobalContext()||{}
     return (
         <>
-          <article key={id} className='d-flex justify-content-start my-2'>
+          <article key={id} className='d-flex justify-content-start my-2 p-2'>
               <div className='imgName'>
                   <img src={image} className='cartImg img-fluid' alt={title}/>
               </div>

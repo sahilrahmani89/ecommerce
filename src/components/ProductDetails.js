@@ -3,6 +3,7 @@ import '../App.css'
 import {useParams,Link} from 'react-router-dom'
 import Loader from './Loader'
 import Footer from './Footer'
+import MobileNav from './MobileNav'
 function ProductDetails() {
     // 
     const [load,setload] = useState(false)
@@ -41,6 +42,7 @@ function ProductDetails() {
     // 
     return (
         <>
+        <MobileNav/>
        <div className='container section-padding '>
            <div className='row justify-content-center '>
                <div className='col-lg-5 col-md-8 col-12 align-item-center text-center'>
