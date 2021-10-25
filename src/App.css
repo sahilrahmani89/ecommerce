@@ -460,11 +460,10 @@ margin-bottom:0!important;
   margin-bottom:0!important;
 }
 .mobilenavdisplay{
-<<<<<<< HEAD
-color:#fff;
-font-size: 24px;
-margin-top:20px;
-line-height: 1.7;
+  color:#fff;
+  font-size: 24px;
+  margin-top:20px;
+  line-height: 1.7;
 }
 .in-about-content {
   display: flex;
@@ -521,8 +520,7 @@ p {
   font-size: 0/8rem;
 }
 .banner {
-margin-top: 0px;
-=======
+  margin-top: 0px;
   color:#fff;
   font-size: 24px;
   margin-top:20px;
@@ -568,6 +566,6 @@ p {
 }
 .banner {
   margin-top: 0px;
->>>>>>> b9fcd1297fd7ddb63884d6b6a7ea07f84023a934
+  }
 }
 }
