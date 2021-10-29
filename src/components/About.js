@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 import MobileNav from './MobileNav'
-
+import InnerBanner from './InnerBanner'
 import Benifit from './Benifit'
 import about from '../img/about.jpg'
 import Footer from './Footer'
@@ -11,6 +11,7 @@ function About() {
     return(
       <>
         <MobileNav/>
+        <InnerBanner innerBan='About Us'/>
         <Benifit/>
   <section className="about-inner section-padding">
     <div className="container">
