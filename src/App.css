@@ -440,6 +440,7 @@ background-color: rgba(176, 176, 197, 0.8);
 color:#fff;
 z-index: 10;
 transition:0.6s;
+  height:100%;
 }
 .nav-mob-links ul li{
 display: block;
@@ -487,7 +488,7 @@ margin-bottom:0!important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 40px;
+ 
 }
 .in-about-content{
 display: flex;
