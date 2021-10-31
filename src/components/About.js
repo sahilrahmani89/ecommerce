@@ -27,14 +27,14 @@ function About() {
                     </p>
                 <div className="mb-30"></div>
                     <button  className="btn btn-detail">Continue Reading</button>
-                    <div className="col-lg-6 col-md-6 col-12">
-           <div className="about-img">
-             <img src={about} alt='model'></img>
-           </div>
-         </div>
           
       </div>
       </div>
+      <div className="col-lg-6 col-md-6 col-12">
+                <div className="about-img">
+                  <img src={about} alt='model'></img>
+                </div>
+          </div>
       </div>
       </div>
   </section>
