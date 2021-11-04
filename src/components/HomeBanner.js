@@ -16,7 +16,7 @@ function HomeBanner() {
                             </h1>
                             <p className="mb-20 white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
                             <div className="banner-btn d-flex">
-                                <Link to='/about' className="btn btn-info mr-10">Shop Now</Link>
+                                <Link to='/shop' className="btn btn-info mr-10">Shop Now</Link>
                                 <Link to="/contact" className="btn btn-warning ">Contact Us</Link>
                             </div>
                        </div>

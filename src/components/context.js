@@ -1,3 +1,4 @@
+
 import React, {useReducer,useContext,useEffect,useCallback,useState} from 'react'
 import reducer from './reducer'
 
@@ -9,15 +10,17 @@ const productsUrl = 'https://fakestoreapi.com/products?limit=12'
 const initialState ={
     productPost:[],
     loading:false,
-    cartItem:[],
+    cartItem:[],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     cartTotal:0,
     inCart:false,
+    catbtnlist:[],
 }
+
 // 
 const AppProvider = ({children}) =>{
     const [state, dispatch] = useReducer(reducer, initialState)
     const [mobileNav,setmobileNav] = useState(false)
-    // 
+    //
     const fethcProduct = useCallback(
         async() => {
             dispatch({type:'LOADING'})
@@ -73,6 +76,7 @@ const AppProvider = ({children}) =>{
         setmobileNav(!mobileNav)
     }
     // 
+    // 
     useEffect(() => {
         fethcProduct()
     }, [fethcProduct])
@@ -81,6 +85,7 @@ const AppProvider = ({children}) =>{
         dispatch({type:'DISPLAY_TOTAL'})
     }, [state.cartItem])
     //
+    // 
     return(
         <AppContext.Provider
          value={{

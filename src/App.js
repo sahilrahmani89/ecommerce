@@ -9,6 +9,7 @@ import ProductDetails from './components/ProductDetails'
 import Pay from './components/Pay'
 import Contact from './components/Contact';
 import About from './components/About';
+import Shop from './components/Shop';
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route exact path='/about'>
              <About/>
+          </Route>
+          <Route exact path ='/shop'>
+            <Shop/>
           </Route>
           <Route path='*'>
              <Error/>

@@ -1,4 +1,5 @@
 const reducer =(state,action)=>{
+    
     if(action.type==='LOADING'){
         return {...state,loading:true}
     }
@@ -62,6 +63,7 @@ const reducer =(state,action)=>{
        num = parseFloat(num.toFixed(2))
         return {...state, cartTotal:num} 
     }
+    // 
     throw new Error('no matching action type')
 }
 export default reducer
