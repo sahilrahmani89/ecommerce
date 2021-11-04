@@ -24,8 +24,8 @@ function CatButList({btnName}) {
         <>
         <div className='container section-padding pb-0'>
             <div className='row justify-content-center'>
-                <div className='col-lg-10 align-item-center'>
-                    <div className='nav-tabs'>
+                <div className='col-lg-10 col-md-12 col-12 align-item-center'>
+                    <div className='nav-tabs catbutton'>
                         <div className='d-flex justify-content-between'>
                             {
                              btnName? btnName.map((item,index)=>{

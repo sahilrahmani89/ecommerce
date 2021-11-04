@@ -572,6 +572,7 @@ max-height: 500px;
   cursor: pointer;
   text-decoration: none;
 }
+
 /* tabs button */
 
 /* media query */
@@ -585,6 +586,14 @@ max-height: 500px;
 .benifit ul li {
 width: 100%;
 }
+.nav-tabs .nav-item{
+  margin-bottom:15px;
+}
+.nav-tabs.catbutton .d-flex{
+  display:block!important;
+  
+}
+
 h1 {
   font-size: 2rem;
 }
